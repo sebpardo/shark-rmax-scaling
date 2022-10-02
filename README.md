@@ -10,10 +10,6 @@ is currently in press at *Ecology and Evolution*.
 The dataset includes life history information and phylogeny for 63 species of 
 sharks(40 spp), rays (20 spp), and chimaeras (3 spp), and contains three files:
 
-`rmax-scaling-analysis.R`: R code with minimum working example of how to load 
-data files, fit models phylogenetic linear models using the `pgls` function in
-the `caper` package, run information-theoretic comparisons, and check diagnostics.
-
 `chond-data.csv`: Data frame with 63 rows (species) and 11 variables. Some of 
 these variables are based on the same life history trait but are transformed for
 ease of interpretation and analysis.
@@ -32,6 +28,10 @@ The 11 variables are:
 - `depth_scaled` (num): scaled `depth_median`
 
 `stein-et-al-single.tree`: Phylogenetic tree with scaled branch lengths from Stein et al. (2018) used in analyses. These are freely downloadable from <http://vertlife.org/sharktree/>.
+
+`rmax-scaling-analysis.R`: R code with minimum working example of how to load 
+data files, fit models phylogenetic linear models using the `pgls` function in
+the `caper` package, run information-theoretic comparisons, and check diagnostics.
 
 ## Sharing/access Information
 
