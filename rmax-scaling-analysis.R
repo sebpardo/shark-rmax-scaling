@@ -4,8 +4,8 @@ library(car)
 library(nlme)
 library(tidyverse)
 
-phy <- read.tree("data/stein-et-al-single.tree")
-dat <- read.csv("data/chond-data.csv", 
+phy <- read.tree("stein-et-al-single.tree")
+dat <- read.csv("chond-data.csv", 
                 stringsAsFactors = FALSE,header = TRUE)
 
 # Creating comparative.data object for use in pgls() function
